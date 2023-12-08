@@ -1,0 +1,13 @@
+2023-11-22T10:14:36.218+01:00  INFO 14472 --- [restartedMain] t.esprit.spring.demo5.Demo5Application   : Starting Demo5Application using Java 17.0.8 with PID 14472 (C:\Users\Marwen.M\IdeaProjects\demo5\target\classes started by Marwen.M in C:\Users\Marwen.M\IdeaProjects\demo5)
+2023-11-22T10:14:36.219+01:00  INFO 14472 --- [restartedMain] t.esprit.spring.demo5.Demo5Application   : No active profile set, falling back to 1 default profile: "default"
+2023-11-22T10:14:36.639+01:00  INFO 14472 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-22T10:14:36.640+01:00  INFO 14472 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-22T10:14:36.660+01:00  INFO 14472 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-22T10:14:36.707+01:00  INFO 14472 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-22T10:14:36.716+01:00  INFO 14472 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-22T10:14:36.722+01:00  WARN 14472 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-11-22T10:14:36.747+01:00  INFO 14472 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-22T10:14:36.836+01:00  INFO 14472 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-22T10:14:37.145+01:00  WARN 14472 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-22T10:14:37.281+01:00  INFO 14472 --- [restartedMain] t.esprit.spring.demo5.Demo5Application   : Started Demo5Application in 1.11 seconds (process running for 352.464)
+2023-11-22T10:14:59.354+01:00  INFO 14472 --- [Thread-11] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
